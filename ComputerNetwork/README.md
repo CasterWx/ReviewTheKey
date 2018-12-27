@@ -2,7 +2,7 @@
 
 Author [`@CasterWx`](https://github.com/CasterWx)
 
-Contact [`antzuhl1998@gmail.com`](antzuhl1998@gmail.com)  [`1325200471@qq.com`](1325200471@qq.com)
+Contact `antzuhl1998@gmail.com` `1325200471@qq.com`
 
 ### [目录]
 * ### [考点](#ch00)

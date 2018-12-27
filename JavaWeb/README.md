@@ -264,11 +264,15 @@ init()、service()和destroy()
 ### 1.MVC每一部分的含义，作用与用什么技术实现
 
 M表示模型 业务逻辑层 数据业务处理功能
+
 V代表视图 视图层 数据显示
+
 C即控制器 控制层 流程控制
 
 Model模型：用于封装与应用程序的业务逻辑相关的数据以及对数据的处理方法。模型有对数据直接访问的权力。
+
 View视图：视图层能够实现数据有目的的显示。在视图中一般没有程序上的逻辑，它从模型那里获得数据并指定这些数据如何表现。当模型变化时，视图负责维持数据表现的一致性，视图同时负责将用户需求通知给控制器。
+
 Controller控制器：控制器相当于调度者，用于控制应用程序的流程。它处理事件并做出响应。
 
 `MVC所需技术参考第一章`
@@ -295,8 +299,11 @@ Struts2核心配置文件 : `struts.xml  放在src目录下`
 </package>
 </struts>
 ```
+
 action中class不指定默认是ActionSuport类。
+
 method不指定默认是execute方法。
+
 根据method指定的方法返回一个字符串，用来指定响应视图，Result就是用来处理逻辑视图与物理视图的关系。
 
 ### 2.Action实现方式
@@ -329,12 +336,19 @@ HttpServletResponse response=ServletActionContext.getResponse();
 ![imghub](https://github.com/CasterWx/ReviewTheKey/raw/master/JavaWeb/img/hibernate.png)
 
 （1）读取并解析配置文件：这是使用Hibernate框架的入口，由Configure类来创建。
+
 （2）读取并解析映射信息：调用Configure中的buildSessionFactory()方法来实现，同时创建SessionFactory。
+
 （3）开启Sesssion：调用SessionFactory的openSession()方法来实现。
+
 （4）创建事务管理对象Transaction：调用Session对象的beginTransaction()来实现。
+
 （5）数据交互操作：调用Session对象的各种操纵数据库的方法来处理数据。例如增、删、改、查。
+
 （6）提交事务：完成了对数据库的操作后应该提交事务，完成一次事务处理。
+
 （7）关闭Session：结束了对数据库的访问以后，应该立即关闭Session对象，释放其占用的内存。
+
 （8）关闭SessionFactory：完成了全部的数据库操作后关闭SessionFacory对象。
 
 ```java
