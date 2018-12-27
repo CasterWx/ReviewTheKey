@@ -11,6 +11,7 @@
 * [第六章 Servlet](#ch06)
 * [第七章 MVC与DAO模式](#ch07)
 * [第十章 Struts2框架技术](#ch08)
+* [第十一章 Hibernate框架技术](#ch09)
 
 ## <span id="ch01">第一章 JavaWeb开发快速入门</span>
 
@@ -281,14 +282,81 @@ Controller控制器：控制器相当于调度者，用于控制应用程序的�
 Struts2核心配置文件 : `struts.xml  放在src目录下` 
 
 ### 1.struts配置方法
+
+ `必考点:给定命名空间和Action的名字，写出访问这个Action的url是什么。也可能会反过来考。`
 ```
 <struts>
-<package name="com" extends="struts-default">
+<package name="com" namespace="/user" extends="struts-default">
         <action name="hello" class="com.struts2.hello.HelloAction">
 		<result name="success">/hello.jsp</result>
         </action>
 </package>
 </struts>
 ```
+action中class不指定默认是ActionSuport类。
+method不指定默认是execute方法。
+根据method指定的方法返回一个字符串，用来指定响应视图，Result就是用来处理逻辑视图与物理视图的关系。
+
+### 2.Action实现方式
+
+* 普通Java类
+* Action接口
+* 继承ActionSuport类
+
+### 3.动态方法调用 `使用!`
+
+### 4.在Action中获取ServletApi
+
+* Ioc方式 
+  * 实现`ServletRequestAware`,`ServletResponseAware`,`SessionAware`接口
+
+* 非Ioc方式 
+```java
+HttpServletRequest request=ServletActionContext.getRequest();
+HttpServletResponse response=ServletActionContext.getResponse();
+```
+
 ## <span id="ch09">第十一章 Hibernate技术框架</span>
 
+### 1.什么是ORM?
+
+* ORM是解决在面向对象的编程中，程序设计语言与关系型数据库发展不匹配而提出来的一种中间层解决方案。通过使用描述对象和数据库之间映射的元数据，将应用程序中的对象自动持久化到关系型数据库中，本质上是将数据从一种形式转换成另外一种形式。帮助开发人员完成面向对象的程序设计语言到关系型数据库的映射，从而实现在项目中既保持以一种完全地面向对象的思想设计与开发应用程序和持久化数据库，又能利用关系型数据库的技术优势。
+
+### 2.Hibernate的工作过程
+
+![imghub](img/hibernate.png)
+
+（1）读取并解析配置文件：这是使用Hibernate框架的入口，由Configure类来创建。
+（2）读取并解析映射信息：调用Configure中的buildSessionFactory()方法来实现，同时创建SessionFactory。
+（3）开启Sesssion：调用SessionFactory的openSession()方法来实现。
+（4）创建事务管理对象Transaction：调用Session对象的beginTransaction()来实现。
+（5）数据交互操作：调用Session对象的各种操纵数据库的方法来处理数据。例如增、删、改、查。
+（6）提交事务：完成了对数据库的操作后应该提交事务，完成一次事务处理。
+（7）关闭Session：结束了对数据库的访问以后，应该立即关闭Session对象，释放其占用的内存。
+（8）关闭SessionFactory：完成了全部的数据库操作后关闭SessionFacory对象。
+
+```java
+        Configuration configuration = new Configuration() ;
+        configuration.configure("hibernate.cfg.xml") ; //"hibernate.cfg.xml"
+        SessionFactory sessionFactory = configuration.buildSessionFactory() ;
+        Session session = sessionFactory.openSession() ;
+        Transaction transaction = session.getTransaction() ;
+        transaction.begin(); //开启事务
+        session.save(Object);
+        transaction.commit(); //提交事务
+        session.close() ;
+        hibernateSession.closeSession();
+```
+
+### 3.hibernate默认配置文件`hibernate.cfg.xml`
+
+### 4.映射文件 `*.hbm.xml`
+
+### 5.查询结果
+
+```
+        Query query = session.createQuery(hql) ;
+        List<Comment> list = query.list() ;
+```
+
+### 6.HQL中不使用表名，使用持久化的类名，原生态的SQL使用createSQLQuery执行。
