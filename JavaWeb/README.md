@@ -1,6 +1,6 @@
 # Java Web 复习要点
 
-[`@CasterWx`](https://github.com/CasterWx)
+Author [`@CasterWx`](https://github.com/CasterWx)
 
 ## 目录
 * [第一章 JavaWeb开发快速入门](#ch01)
