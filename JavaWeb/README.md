@@ -2,6 +2,8 @@
 
 Author [`@CasterWx`](https://github.com/CasterWx)
 
+Contact [`antzuhl1998@gmail.com`](antzuhl1998@gmail.com)  [`1325200471@qq.com`](1325200471@qq.com)
+
 ## 目录
 * [第一章 JavaWeb开发快速入门](#ch01)
 * [第二章 Web前端技术](#ch02)
