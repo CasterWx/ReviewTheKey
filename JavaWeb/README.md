@@ -7,11 +7,14 @@
 * [第二章 Web前端技术](#ch02)
 * [第三章 JSP语法基础](#ch03)
 * [第四章 JDBC技术](#ch04)
+* [第五章 JavaBean](#ch05)
+* [第六章 Servlet](#ch06)
+* [第七章 MVC与DAO模式](#ch07)
+* [第十章 Struts2框架技术](#ch08)
 
 ## <span id="ch01">第一章 JavaWeb开发快速入门</span>
 
 ### 1.常见Web开发技术
-
 ```
 表现层：前端开发技术，例如HTML 、CSS 、JavaScript 、DOM(Document Object Model) 、ActiveX、VBScript、Applet、JSP、jQuery等
 控制层：Servlet 、Struts的Action等技术。
@@ -225,3 +228,67 @@ ps.setInt(2,"demo");
 * PreparedStatement
 
 两者的区别:Statement执行静态SQL语句,PreparedStatement执行动态SQL语句
+
+## <span id="ch05">第五章 JavaBean</span>
+
+### 1. JavaBean相关的三个标记以及作用
+
+    jsp:useBean指令
+    jsp:getProperty
+    jsp:setProperty
+
+## <span id="ch06">第六章 Servlet</span>
+
+### 1.Servlet生命周期中三个关键的方法及其作用
+
+init()、service()和destroy()
+
+* Servlet容器完成加载Servlet类和实例化一个Servlet对象后，init()方法完成初始化工作，该方法由Web容器调用完成；service()方法处理客户端请求，并返回响应结果；destroy()方法在Web服务器卸载Servlet之前被调用，释放一些资源。
+
+### 2.创建一个Servlet
+
+* 继承HttpServlet 
+* 继承GenericServlet
+* web.xml
+
+### 3.创建一个Filter
+
+* 继承一个Filter接口
+* 实现doFilter方法
+
+## <span id="ch07">第七章 MVC与DAO模式</span>
+
+### 1.MVC每一部分的含义，作用与用什么技术实现
+
+M表示模型 业务逻辑层 数据业务处理功能
+V代表视图 视图层 数据显示
+C即控制器 控制层 流程控制
+
+Model模型：用于封装与应用程序的业务逻辑相关的数据以及对数据的处理方法。模型有对数据直接访问的权力。
+View视图：视图层能够实现数据有目的的显示。在视图中一般没有程序上的逻辑，它从模型那里获得数据并指定这些数据如何表现。当模型变化时，视图负责维持数据表现的一致性，视图同时负责将用户需求通知给控制器。
+Controller控制器：控制器相当于调度者，用于控制应用程序的流程。它处理事件并做出响应。
+
+`MVC所需技术参考第一章`
+
+### 2.请求转发与页面重定向
+
+![img2](img/tz1.png)
+![img2](img/tz2.png)
+![img2](img/tz3.png)
+
+## <span id="ch08">第十章 Struct2技术框架</span>
+
+Struts2核心配置文件 : `struts.xml  放在src目录下` 
+
+### 1.struts配置方法
+```
+<struts>
+<package name="com" extends="struts-default">
+        <action name="hello" class="com.struts2.hello.HelloAction">
+		<result name="success">/hello.jsp</result>
+        </action>
+</package>
+</struts>
+```
+## <span id="ch09">第十一章 Hibernate技术框架</span>
+
