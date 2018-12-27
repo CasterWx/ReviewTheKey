@@ -50,7 +50,7 @@ Tomcat是一个JSP/Servlet容器。
 
 * Servlet被处理完毕以后，调用_jspDestroy()方法结束它的生命周期，同时被JVM（Java虚拟机）的垃圾回收器回收。
 
-![img1](img/1.jpg)
+![img1](https://github.com/CasterWx/ReviewTheKey/raw/master/JavaWeb/img/1.jpg)
 
 
 ## <span id="ch02">第二章 Web前端技术</span>
@@ -273,9 +273,9 @@ Controller控制器：控制器相当于调度者，用于控制应用程序的�
 
 ### 2.请求转发与页面重定向
 
-![img2](img/tz1.png)
-![img2](img/tz2.png)
-![img2](img/tz3.png)
+![img2](https://github.com/CasterWx/ReviewTheKey/raw/master/JavaWeb/img/tz1.png)
+![img2](https://github.com/CasterWx/ReviewTheKey/raw/master/JavaWeb/img/tz2.png)
+![img2](https://github.com/CasterWx/ReviewTheKey/raw/master/JavaWeb/img/tz3.png)
 
 ## <span id="ch08">第十章 Struct2技术框架</span>
 
@@ -324,7 +324,7 @@ HttpServletResponse response=ServletActionContext.getResponse();
 
 ### 2.Hibernate的工作过程
 
-![imghub](img/hibernate.png)
+![imghub](https://github.com/CasterWx/ReviewTheKey/raw/master/JavaWeb/img/hibernate.png)
 
 （1）读取并解析配置文件：这是使用Hibernate框架的入口，由Configure类来创建。
 （2）读取并解析映射信息：调用Configure中的buildSessionFactory()方法来实现，同时创建SessionFactory。
