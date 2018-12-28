@@ -6,7 +6,7 @@ Contact `antzuhl1998@gmail.com` `1325200471@qq.com`
 
 ### [目录]
 
-![img1](../img/1.png)
+![img1](https://github.com/CasterWx/ReviewTheKey/raw/master/OperatingSystem/img/1.png)
 
 * #### [1.简述操作系统的四个基本特征](#ch00)
 * #### [2.进程有哪几种基本状态?简要描述进程基本状态之间的转换的典型原因](#ch01)
