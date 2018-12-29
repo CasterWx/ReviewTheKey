@@ -181,6 +181,12 @@ Contact `antzuhl1998@gmail.com` `1325200471@qq.com`
 
 ## <span id="ch04">第四章 网络层</span>
 
+![imh](img/12.png)
+![imh](img/13.png)
+![imh](img/14.png)
+![imh](img/15.png)
+![imh](img/16.png)
+
 ## <span id="ch05">第五章 运输层</span>
 
 ## <span id="ch06">第六章 应用层</span>
