@@ -300,7 +300,7 @@ Struts2核心配置文件 : `struts.xml  放在src目录下`
 </struts>
 ```
 
-action中class不指定默认是ActionSuport类。
+action中class不指定默认是ActionSupport类。
 
 method不指定默认是execute方法。
 
@@ -310,7 +310,7 @@ method不指定默认是execute方法。
 
 * 普通Java类
 * Action接口
-* 继承ActionSuport类
+* 继承ActionSupport类
 
 ### 3.动态方法调用 `使用!`
 
