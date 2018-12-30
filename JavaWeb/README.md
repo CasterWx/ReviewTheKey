@@ -192,11 +192,11 @@ Tomcat是一个JSP/Servlet容器。
 ```
 <servlet>
     <servlet-name>myslt</servlet-name>
-    <url-pattern>/myslt</url-pattern>
+    <servlet-class>该servlet具体的实现类</servlet-class>
 </servlet>
 <servlet-mapping>
     <servlet-name>myslt</servlet-name>
-    <servlet-class>该servlet具体的实现类</servlet-class>
+    <url-pattern>/myslt</url-pattern>
 </servlet-mapping>
 ```
 
