@@ -4,6 +4,11 @@ Author [`@CasterWx`](https://github.com/CasterWx)
 
 Contact `antzuhl1998@gmail.com`  `1325200471@qq.com`
 
+| [横版PDF下载](http://120.78.134.109/PDF/JavaWeb-V1.pdf) | [竖版PDF下载](http://120.78.134.109/PDF/JavaWeb-V2.pdf) |
+| ---------- | ---------- |
+
+* `整理如有错误请Issues提交`
+
 ## 目录
 * [第一章 JavaWeb开发快速入门](#ch01)
 * [第二章 Web前端技术](#ch02)
