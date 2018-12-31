@@ -4,6 +4,9 @@ Author [`@CasterWx`](https://github.com/CasterWx)
 
 Contact `antzuhl1998@gmail.com` `1325200471@qq.com`
 
+| [横版PDF下载](http://120.78.134.109/PDF/OS-V2.pdf) | [竖版PDF下载](http://120.78.134.109/PDF/OS-V1.pdf) |
+| ---------- | ---------- |
+
 ### [目录]
 
 ![img1](https://github.com/CasterWx/ReviewTheKey/raw/master/OperatingSystem/img/1.png)
