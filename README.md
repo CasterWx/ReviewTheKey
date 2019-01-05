@@ -8,6 +8,7 @@ Key points of final review .
 
 ## [操作系统简答题](https://github.com/CasterWx/ReviewTheKey/blob/master/OperatingSystem/Jdt/README.md)
 
+## [算法习题](https://github.com/CasterWx/ReviewTheKey/blob/master/Algorithm/README.md)
 
 
 ## 其他
