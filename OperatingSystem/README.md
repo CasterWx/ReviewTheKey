@@ -1,0 +1,20 @@
+# 操作系统2019真题
+
+Author [`@CasterWx`](https://github.com/CasterWx)
+
+Contact `antzuhl1998@gmail.com` `1325200471@qq.com`
+
+
+![1](img/t1.jpg)
+
+![1](img/t2.jpg)
+
+![1](img/t3.jpg)
+
+![1](img/t4.jpg)
+
+![1](img/t5.jpg)
+
+![1](img/t5.jpg)
+
+![1](img/311.jpg)
