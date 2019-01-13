@@ -6,22 +6,9 @@ Contact `antzuhl1998@gmail.com` `1325200471@qq.com`
 
 * ![1](png/png2b164280bf9dcf2f.jpg)
 
-```
-3. 答案(C)
-```
-
 * ![2](png/png2d7fdeeb88164de8.jpg)
-       
-```
-4. 
-5. 
-```
 
 * ![3](png/png3a7222034424911d.jpg)
-
-```
-3. 
-```
 
 * ![4](png/png3ad268159850feb7.jpg)
 
