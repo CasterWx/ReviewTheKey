@@ -7,12 +7,21 @@ Key points of final review .
 
 * #### [计算机网络](https://github.com/CasterWx/ReviewTheKey/blob/master/ComputerNetwork/README.md)
 
-* #### [操作系统简答题](https://github.com/CasterWx/ReviewTheKey/blob/master/OperatingSystem/Jdt/README.md)
+* #### [操作系统]
+  * ##### [操作系统2015级真题](https://github.com/CasterWx/ReviewTheKey/tree/master/OperatingSystem)
+  * ##### [操作系统简答题](https://github.com/CasterWx/ReviewTheKey/blob/master/OperatingSystem/Jdt/README.md)
 
 * #### [算法习题1](https://github.com/CasterWx/ReviewTheKey/blob/master/Algorithm/README.md)
 
 * #### [算法习题2](https://github.com/CasterWx/ReviewTheKey/blob/master/Algorithm/Alg.md)
 
+* #### [多媒体](https://github.com/CasterWx/ReviewTheKey/tree/master/Multimedia)
+
+* #### [软件工程](https://github.com/CasterWx/ReviewTheKey/tree/master/SoftwareEngineering)
+
+    * ##### [软件工程PPT](https://github.com/CasterWx/ReviewTheKey/tree/master/SoftwareEngineering/rjgc) 
+
+    * ##### [软件工程试卷](https://github.com/CasterWx/ReviewTheKey/tree/master/SoftwareEngineering/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%8D%B7%E5%AD%90/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%8D%B7%E5%AD%90)
 
 ## 其他
 
