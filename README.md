@@ -1,6 +1,8 @@
 # ReviewTheKey
 Key points of final review . 
 
+#### [打包下载](https://github.com/CasterWx/ReviewTheKey/releases/tag/V0.1)
+
 ## 索引
 
 * #### [Java Web](https://github.com/CasterWx/ReviewTheKey/blob/master/JavaWeb/README.md)
@@ -27,7 +29,7 @@ Key points of final review .
 
     * ##### [软件工程试卷](https://github.com/CasterWx/ReviewTheKey/tree/master/SoftwareEngineering/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%8D%B7%E5%AD%90/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%8D%B7%E5%AD%90)
 
-## 其他
+## 其他项目
 
 | 项目名 | 介绍 |
 | ------------ | ------------ | 
