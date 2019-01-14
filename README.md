@@ -7,13 +7,17 @@ Key points of final review .
 
 * #### [计算机网络](https://github.com/CasterWx/ReviewTheKey/blob/master/ComputerNetwork/README.md)
 
-* #### [操作系统]
-  * ##### [操作系统2015级真题](https://github.com/CasterWx/ReviewTheKey/tree/master/OperatingSystem)
-  * ##### [操作系统简答题](https://github.com/CasterWx/ReviewTheKey/blob/master/OperatingSystem/Jdt/README.md)
+* #### [操作系统](https://github.com/CasterWx/ReviewTheKey/tree/master/OperatingSystem)
 
-* #### [算法习题1](https://github.com/CasterWx/ReviewTheKey/blob/master/Algorithm/README.md)
+  * ##### [操作系统2015级真题](https://github.com/CasterWx/ReviewTheKey/blob/master/OperatingSystem/2015.md)
 
-* #### [算法习题2](https://github.com/CasterWx/ReviewTheKey/blob/master/Algorithm/Alg.md)
+  * ##### [操作系统2016级重点简答题](https://github.com/CasterWx/ReviewTheKey/blob/master/OperatingSystem/Jdt/README.md)
+
+* #### [算法](https://github.com/CasterWx/ReviewTheKey/tree/master/Algorithm)
+
+  * ##### [算法习题1](https://github.com/CasterWx/ReviewTheKey/blob/master/Algorithm/README.md)
+
+  * ##### [算法习题2](https://github.com/CasterWx/ReviewTheKey/blob/master/Algorithm/Alg.md)
 
 * #### [多媒体](https://github.com/CasterWx/ReviewTheKey/tree/master/Multimedia)
 
